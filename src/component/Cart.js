@@ -2,12 +2,12 @@ import { useState, useEffect } from "react";
 
 export const Cart = () => {
   const [productsArray, setProductsArray] = useState([
-    { name: "T-shirt", qty: 0, price: 100 },
-    { name: "Jeans", qty: 0, price: 200 },
-    { name: "Full Sleave T-shirt", qty: 0, price: 300 },
-    { name: "Shorts", qty: 0, price: 400 },
-    { name: "shirt", qty: 0, price: 500 },
-    { name: "Chinos Trousers", qty: 0, price: 600 }
+    { name: "chocolate", qty: 0, price: 150 },
+    { name: "meggie", qty: 0, price: 78 },
+    { name: "Waffers cream & onion", qty: 0, price: 200 },
+    { name: "shizwn", qty: 0, price: 250 },
+    { name: "Mazza", qty: 0, price: 500 },
+    { name: "kinder joy", qty: 0, price: 20 }
   ]);
   const [totalPrice, setTotalPrice] = useState(0);
   var [totalQty, setTotalQty] = useState(0);
